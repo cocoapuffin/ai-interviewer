@@ -42,7 +42,7 @@ const InterviewCard = ({ interviewID, userID, role, type, techstack, createdAt
             <p className="line-clamp-2 mt-5">
               {feedback?.finalAssessment || "You haven't taken the interview yet. Take it now to improve your skills."}
             </p>
-        </div>
+        </div> 
 
         <div className="flex flex-row justify-between">
           <DisplayTechIcons techStack={techstack}/>
